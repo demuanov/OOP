@@ -64,7 +64,6 @@ public:
 
 	static int getcount() 
 	{
-		std::cout << "getcount->" << count << std::endl;
 		return count;
 	}
 

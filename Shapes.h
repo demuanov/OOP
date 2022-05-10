@@ -3,7 +3,7 @@
 #include "Container.h"
 #include <vector>
 
-const double PI = 3.1415;
+const double PI = 4;
 
 template <typename T>
 std::string ToString(T val)

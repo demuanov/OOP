@@ -2,7 +2,9 @@
 #include"sstream"
 #include "Container.h"
 #include <vector>
-const double Pi = 3.14159265;
+
+const double PI = 3.14159265;
+
 template <typename T>
 std::string ToString(T val)
 {
@@ -51,7 +53,7 @@ public:
 	{
 		center = new Point(point);
 		radius = abs(r);
-		options = "Circle " + this->getname() + " center:" + point.getoptions() + "radius: " + ToString(radius) + " \nand area = " + ToString(radius*radius*Pi) + "\n";
+		options = "Circle " + this->getname() + " center:" + point.getoptions() + "radius: " + ToString(radius) + " \nand area = " + ToString(radius*radius*PI) + "\n";
 	}
 
 	~Circle()
